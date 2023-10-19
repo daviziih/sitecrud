@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Cadastro de Jogos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		body {
+			width: 90%;
+			padding: 50px;
+			align-items: center;
+		}
+	</style>
+
+</head>
+
+<body>
+	<form method="post" action="../jsp/cadastro.jsp">
+		<p>
+			<label for="cod">Código:*</label>
+			<input id="cod" type="number" name="codigo" size="5" maxlength="5" required>
+		</p>
+		<p>
+			<label for="nom">Nome:*</label>
+			<input id="nom" type="text" name="nome" size="50" maxlength="50" required>
+		</p>
+		<p>
+			<label for="des">Desenvolvedora:*</label>
+			<input id="des" type="text" name="desenvolvedora" size="50" maxlength="50" required>
+		</p>
+		<p>
+			<label for="pre">Preço:*</label>
+			<input id="pre" type="number" name="preco" size="10" maxlength="10" required>
+		</p>
+		<p>
+			<input type="submit" value="Salvar">
+		</p>
+	</form>
+</body>
+
+</html>
